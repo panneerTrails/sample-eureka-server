@@ -1,0 +1,8 @@
+---
+applications:
+- name: sample-eureka-server
+  instance: 1
+  host: sample-eureka-server
+  path: build\libs\sample-eureka-server-0.0.1-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  memory: 680M
